@@ -1,0 +1,352 @@
+.first {
+  background-color: #fff;
+  width: 100%;
+  height: 150px;
+}
+.second {
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+}
+.third {
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+}
+.fourth {
+  background-color: #fff;
+  width: 100%;
+  height: 180px;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+}
+/* The third container */
+.body {
+  background-color: #000;
+  width: 800px;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* The first container */
+.main {
+  display: flex;
+  justify-content: center;
+}
+/* The second container */
+.container {
+  background-color: #03045e;
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px;
+}
+ul,
+li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding: 8px;
+}
+li a {
+  text-decoration: none;
+  color: #03045e;
+}
+.logo {
+  width: 170px;
+  height: 200px;
+  border-radius: 2px;
+}
+a:hover {
+  color: #f77f00;
+  transition-duration: 2s;
+  transition-property: margin-bottom;
+}
+.doggy {
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+h2 {
+  color: #03045e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+p {
+  color: #03045e;
+  text-align: center;
+}
+input {
+  width: 150px;
+  height: 30px;
+  margin: 20px 0 5px 10px;
+  border: solid #03045e;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.secondinput {
+  background-color: #03045e;
+  border-radius: 5px;
+  color: #fff;
+}
+.firstinput {
+  border-radius: 10px;
+}
+.video {
+  width: 300px;
+  height: 100px;
+}
+@media (max-width: 400px) {
+  .container {
+    border-radius: 0;
+    width: 500px;
+    height: 500px;
+  }
+  .body {
+    width: 100px;
+    height: 100px;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    width: 150px;
+    height: 100px;
+    border-radius: 2px;
+    margin-bottom: 100px;
+  }
+  .doggy {
+    width: 250px;
+    height: 150px;
+    margin-left: 50px;
+  }
+  .video {
+    width: 150px;
+    height: 100px;
+  }
+  input {
+    width: 150px;
+    height: 30px;
+    margin-left: 100px;
+  }
+  .bottom {
+    margin-top: 50px;
+  }
+  .bottomf {
+    text-align: center;
+  }
+  h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-right: 70px;
+  }
+  p {
+    text-align: left;
+    margin-right: 70px;
+  }
+  .first {
+    width: 100%;
+    height: 150px;
+  }
+  .second {
+    width: 100%;
+    height: 250px;
+  }
+  .third {
+    width: 100%;
+    height: 250px;
+  }
+  .fourth {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* The third container */
+  .body {
+    background-color: #000;
+    width: 400px;
+    height: 700px;
+  }
+  /* The second container */
+  .container {
+    background-color: #03045e;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+  }
+  ul,
+  li {
+    display: block;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .container {
+    width: 500px;
+    height: 500px;
+  }
+  .body {
+    width: 200px;
+    height: 100px;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    width: 150px;
+    height: 100px;
+    border-radius: 2px;
+    /* margin-left: 70px; */
+  }
+  .video {
+    width: 150px;
+    height: 100px;
+  }
+  input {
+    width: 150px;
+    height: 30px;
+  }
+
+  .bottomf {
+    text-align: center;
+  }
+  h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-right: 70px;
+  }
+  p {
+    text-align: left;
+    margin-right: 70px;
+  }
+  .first {
+    width: 100%;
+    height: 150px;
+  }
+  .second {
+    width: 100%;
+    height: 250px;
+  }
+  .third {
+    width: 100%;
+    height: 200px;
+  }
+  .fourth {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* The third container */
+  .body {
+    background-color: #000;
+    width: 600px;
+    height: 800px;
+  }
+  /* The second container */
+  .container {
+    background-color: #03045e;
+    width: 700px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+  }
+  .doggy {
+    width: 300px;
+    height: 200px;
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .container {
+    width: 500px;
+    height: 500px;
+  }
+  .body {
+    width: 200px;
+    height: 100px;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    width: 150px;
+    height: 100px;
+    border-radius: 2px;
+  }
+  .video {
+    width: 150px;
+    height: 100px;
+  }
+  input {
+    width: 150px;
+    height: 30px;
+    /* margin-left: 100px; */
+  }
+
+  .bottomf {
+    text-align: center;
+  }
+  h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-right: 70px;
+  }
+  p {
+    text-align: left;
+    margin-right: 70px;
+  }
+  .first {
+    width: 100%;
+    height: 150px;
+  }
+  .second {
+    width: 100%;
+    height: 250px;
+  }
+  .third {
+    width: 100%;
+    height: 200px;
+  }
+  .fourth {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* The third container */
+  .body {
+    background-color: #000;
+    width: 400px;
+    height: 800px;
+  }
+  /* The second container */
+  .container {
+    background-color: #03045e;
+    width: 500px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+  }
+  .doggy {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+  }
+}
